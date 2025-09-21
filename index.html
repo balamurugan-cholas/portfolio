@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bala Murugan | Portfolio</title>
+
+  <!-- Google Fonts (Poppins) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!--Dev Icon-->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======= Toast Notification Container ======= -->
+  <div id="toast-container"></div>
+
+  <!-- ======== NAVBAR ======== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <!-- Left: Logo / Name -->
+      <div class="logo">
+        <a href="#home">
+          <i class="devicon-bash-plain colored"></i>
+          Dev Bala</a>
+      </div>
+  
+      <!-- Center Navigation Links -->
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+  
+      <!-- Contact Button -->
+      <a href="#contact" class="contact-btn">Hire Me</a>
+  
+      <!-- Mobile Menu Icon (3-dot toggle) -->
+      <div class="menu-icon" id="menuIcon">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </div>
+  </header>  
+
+  <!-- ======== MOBILE OVERLAY MENU ======== -->
+  <div class="overlay" id="overlay">
+    <div class="overlay-content">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" target="_blank">Resume</a>
+    </div>
+  </div>
+
+  <!-- ======== HERO SECTION ======== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <h1>Bala Murugan</h1>
+        <p>Software Developer | Python & Electron Enthusiast</p>
+        <p style="font-weight: 800;" class="typing"></p> <!-- animated typing effect for skills -->
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary t-btn">View Projects</a>
+          <a href="resume.pdf" class="btn-secondary t-btn" target="_blank">Download Resume</a>
+        </div>
+      </div>
+
+      <!-- Image / Illustration -->
+      <div class="hero-image">
+        <img src="images/profile.jpeg" alt="Hero Illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== ABOUT SECTION ======== -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <!-- Left: Heading & Intro -->
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am Bala Murugan, a passionate software developer with a strong curiosity for Python and building innovative applications. I love exploring new technologies and turning ideas into practical software solutions.
+        </p>
+        <p>
+          I enjoy creating projects like <strong>NeuroDesk</strong> and constantly challenge myself to learn, experiment, and improve my coding skills. My goal is to contribute to impactful software development projects and grow as a developer.
+        </p>
+      </div>
+
+      <!-- Highlights / Cards -->
+      <div class="about-cards">
+        <div class="card">
+          <h3>Fresher</h3>
+          <p>Ready to Learn</p>
+        </div>
+        <div class="card">
+          <h3 class="counter" data-target="3">3+</h3>
+          <p>Projects Built</p>
+        </div>
+        <div class="card t-card">
+          <h3>Education & Certification</h3>
+          <p>B.A Economics, St.Xaviers Autonomous College, Tirunelveli</p>
+          <p>Data Science <a style="text-decoration: none;color: #F97316;" href="https://www.malaris.com/" target="_blank">Malaris</a></p>
+        </div>
+        <div class="card t-card">
+          <h3>Curious</h3>
+          <p>Exploring New Tech</p>
+        </div>
+      </div>
+
+      <!-- CTA Button -->
+      <div class="about-cta">
+        <a href="#projects" class="btn-primary">See My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SKILLS SECTION ======= -->
+  <section class="skills-section" id="skills">
+    <div class="skills-container">
+      
+      <!-- Section Heading -->
+      <div class="skills-heading">
+        <h2>My Skills</h2>
+        <p>Technologies and strengths I use to build efficient software solutions.</p>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="technical-skills">
+        <div class="skill">
+          <h3>Python</h3>
+          <div class="skill-bar"><div class="skill-progress" data-progress="95%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript (using AI)</h3>
+          <div class="skill-bar"><div class="skill-progress" data-progress="80%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>Web Development</h3>
+          <div class="skill-bar"><div class="skill-progress" data-progress="95%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>Flask</h3>
+          <div class="skill-bar"><div class="skill-progress" data-progress="100%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>ML & DL</h3>
+          <div class="skill-bar"><div class="skill-progress" data-progress="83%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>MySQL / SQLite3</h3>
+          <div class="skill-bar"><div class="skill-progress" data-progress="80%"></div></div>
+        </div>
+        <div class="skill">
+          <h3>Git & GitHub</h3>
+          <div class="skill-bar"><div class="skill-progress" data-progress="70%"></div></div>
+        </div>
+      </div>
+
+      <!-- Soft Skills / Strengths -->
+      <div class="soft-skills">
+        <div class="skill-card">Curious to create new technologies</div>
+        <div class="skill-card">Efficient work using AI tools like ChatGPT, Co-Pilot</div>
+        <div class="skill-card">Problem-solving & debugging</div>
+        <div class="skill-card">Continuous learner</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======= PROJECTS SECTION ======= -->
+  <section class="projects-section" id="projects">
+    <div class="projects-container">
+      
+      <!-- Section Heading -->
+      <div class="projects-heading">
+        <h2>My Projects</h2>
+        <p>Here are some software projects I’ve built to improve my skills and explore new technologies.</p>
+      </div>
+
+      <!-- Project Cards -->
+      <div class="projects-cards">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>NeuroDesk Desktop App</h3>
+          <p>An intelligent Windows desktop assistant for clipboard management and productivity. <br>  Enhanced Clipboard Power – Unlike the default system clipboard (which only stores the last item), NeuroDesk offers persistent history, advanced search, and better organization.</p>
+          <p class="tech-stack">Python, Electron, JS, SQLite3</p>
+          <a style="text-decoration: none;" href="https://github.com/balamurugan-cholas/NeuroDesk.git" target="_blank" class="btn-primary">View Code</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>HeartCare Web App</h3>
+          <p>A Flask web app that predicts the presence of heart disease based on user inputs using a deep learning model trained on the Heart Disease UCI dataset.</p>
+          <p class="tech-stack">ML Libraries: scikit-learn, TensorFlow, Keras | Data Handling: Pandas, LabelEncoder</p>
+          <a style="text-decoration: none;" href="https://github.com/balamurugan-cholas/Heart-care-using-ML.git" target="_blank" class="btn-primary">View Code</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3>PDF Chatbot Web App</h3>
+          <p>A Flask-based chatbot app where admins upload PDFs, users extract content, and interact with an AI assistant powered by Google’s Gemini API. Includes admin management features.</p>
+          <p class="tech-stack">Gemini API, Python 3, Flask, SQLite</p>
+          <a style="text-decoration: none;" href="https://github.com/balamurugan-cholas/pdf-chatbot.git" target="_blank" class="btn-primary">View Code</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <h3>Image Enhancement Web App</h3>
+          <p>A web app built with Flask and OpenCV that allows users to upload images and apply enhancement filters such as Gaussian Blur, Median Blur, and Bilateral Filter with custom intensity levels.</p>
+          <p class="tech-stack">Python 3.x, Flask, OpenCV</p>
+          <a style="text-decoration: none;" href="https://github.com/balamurugan-cholas/Image-Enhancement-opencv.git" target="_blank" class="btn-primary">View Code</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======= CONTACT SECTION ======= -->
+  <section class="contact-section" id="contact">
+    <div class="contact-container">
+      
+      <!-- Section Heading -->
+      <div class="contact-heading">
+        <h2>Contact Me</h2>
+        <p>Have a project idea or want to collaborate? Feel free to reach out!</p>
+      </div>
+
+      <div class="contact-content">
+        
+        <!-- Left: Contact Form -->
+        <div class="contact-form">
+          <!-- Updated form action for Formspree -->
+          <form id="contactForm" action="https://formspree.io/f/mzzanwgw" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required style="border-radius:0;">
+            <input type="email" name="email" placeholder="Your Email" required style="border-radius:0;">
+            <textarea name="message" rows="6" placeholder="Your Message" required style="border-radius:0;"></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Right: Contact Info -->
+        <div class="contact-info">
+          <div class="info-card">
+            <h3>Email</h3>
+            <p>balamuruganofficical3@gmail.com</p>
+          </div>
+          <div class="info-card">
+            <h3>Phone</h3>
+            <p>+91 7418674103</p>
+          </div>
+          <div class="info-card">
+            <h3>Location</h3>
+            <p>Tirunelveli, Tamilnadu</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      
+      <!-- Top Row -->
+      <div class="footer-top">
+        
+        <!-- Logo / Initials -->
+        <div class="footer-logo">
+          <a href="#home">
+            <i style="color: white;" class="devicon-bash-plain colored"></i>
+            Dev Bala
+          </a>
+        </div>
+
+        <!-- Quick Links -->
+        <ul class="footer-links">
+          <li>Clean code, Sleek design</li>
+        </ul>
+
+        <!-- Social Icons -->
+        <div class="footer-social">
+          <a style="text-decoration: none;" href="https://github.com/balamurugan-cholas" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a style="text-decoration: none;" href="https://in.linkedin.com/in/bala-murugan-6b73a7369" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a style="text-decoration: none;" href="https://www.instagram.com/post_maram?igsh=MWltZ3YyMDVxdnoyYQ==" target="_blank" aria-label="Twitter">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Bottom Row -->
+      <div class="footer-bottom">
+        <p>© 2025 Bala Murugan | Built with ❤️</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
