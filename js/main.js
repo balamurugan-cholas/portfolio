@@ -269,7 +269,7 @@ contactForm.addEventListener("submit", function(e) {
   });
 
   // Send form data via AJAX to Formspree
-  fetch("https://formspree.io/f/xpwywvzn", { // FORM_ID
+  fetch("https://formspree.io/f/mvgwzard", { // FORM_ID
     method: "POST",
     headers: { 'Accept': 'application/json' },
     body: formData
