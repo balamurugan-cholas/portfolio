@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ======== Typing Effect (without cursor) ========
 document.addEventListener("DOMContentLoaded", () => {
   const typingElement = document.querySelector(".hero-text .typing");
-  const skills = ["Python", "Electron", "Software Development", "Web Apps", "Web Development (Flask)"];
+  const skills = ["Python", "Electron", "Software Development", "Web Apps", "Web Development (Flask/Django)"];
   let skillIndex = 0;
   let charIndex = 0;
   let typingSpeed = 100; // ms per character
